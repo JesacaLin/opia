@@ -1,4 +1,4 @@
-const apiKey = process.env.REACT_APP_API_KEY;
+const apiKey = import.meta.env.VITE_APP_API_KEY;
 
 export function isConfigured() {
   if (!apiKey) {
