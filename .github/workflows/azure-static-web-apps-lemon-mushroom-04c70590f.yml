@@ -32,7 +32,9 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
-
+        env: 
+          VITE_APP_API_KEY2: ${{ secrets.VITE_APP_API_KEY2 }}
+          VITE_APP_API_KEY: ${{ secrets.VITE_APP_API_KEY }}
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
