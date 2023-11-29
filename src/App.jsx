@@ -144,7 +144,7 @@ function App() {
         type="text"
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        placeholder="Enter URL to analyze or textual prompt to generate an image"
+        placeholder="Enter URL or Prompt"
         style={{
           width: "500px",
           height: "30px",
