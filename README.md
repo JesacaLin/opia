@@ -2,6 +2,8 @@
 
 Welcome to Opia, a web application that seamlessly integrates the robust capabilities of Azure AI Vision and Azure OpenAI cognitive services.
 
+This application is deployed on Azure. A link to the live application is available upon request.
+
 ## What is Opia?
 
 Derived from The Directory of Obscure Sorrows, 'Opia' signifies the profound intensity experienced when making direct eye contact, a sensation that can feel both invasive and vulnerable. This concept encapsulates our mission to delve deep into the realm of AI, pushing boundaries and exploring new frontiers.
