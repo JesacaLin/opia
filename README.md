@@ -1,6 +1,6 @@
 # Opia: AI-Powered Image Analysis and Generation with Azure AI Vision and OpenAI Integration!
 
-Welcome to Opia, your gateway to AI-driven image analysis and generation. This web application seamlessly integrates the robust capabilities of Azure AI Vision and Azure OpenAI cognitive services.
+Welcome to Opia, a web application that seamlessly integrates the robust capabilities of Azure AI Vision and Azure OpenAI cognitive services.
 
 ## What is Opia?
 
