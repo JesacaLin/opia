@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400&family=Montserrat:wght@400;500;600&family=Raleway:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

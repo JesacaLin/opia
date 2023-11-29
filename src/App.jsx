@@ -103,7 +103,7 @@ function App() {
   const [generatedResult, setGeneratedResult] = useState(null);
   const [isConfigured, setIsConfigured] = useState(true);
 
-  const title = "AI Vision";
+  const title = "Opia: Unleash the Power of AI Vision";
 
   useEffect(() => {
     try {
@@ -126,7 +126,7 @@ function App() {
 
   return (
     <div>
-      <h1>{title}</h1>
+      <h1 className="font-titleFont font-bold text-2xl">{title}</h1>
       <h4>Insert URL or type prompt:</h4>
       <input
         type="text"
@@ -143,6 +143,7 @@ function App() {
       />
       <br />
       <button
+        className="font-titleFont font-bold bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full"
         onClick={() => {
           setImage(value);
           setImageUrl(value);
@@ -165,6 +166,7 @@ function App() {
       </button>
 
       <button
+        className="font-titleFont font-bold bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full"
         onClick={() => {
           setIsLoading(true);
           setUserPrompt(value);

@@ -2,7 +2,13 @@
 export default {
   content: ["./src/**/*.jsx", "./src/**/*.js"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        titleFont: ["Libre Franklin", "sans-serif"],
+        subTitleFont: ["Montserrat", "sans-serif"],
+        textFont: ["Raleway", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
