@@ -103,7 +103,7 @@ function App() {
   const [generatedResult, setGeneratedResult] = useState(null);
   const [isConfigured, setIsConfigured] = useState(true);
 
-  const title = "Opia: Unleash the Power of AI Vision";
+  const title = "Opia: The Power of AI Vision";
 
   useEffect(() => {
     try {
@@ -128,7 +128,7 @@ function App() {
     <div className="box-border p-8 space-y-5 space-x-2">
       <h1 className="font-titleFont font-bold text-2xl">{title}</h1>
       <h3 className="font-subtitleFont font-bold text-1xl">
-        Analyze or Generate Images with a Click
+        Analyze or Generate Images with One Click
       </h3>
       <p>Directions:</p>
       <p>
