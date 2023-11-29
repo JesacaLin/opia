@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        titleFont: ["Libre Franklin", "sans-serif"],
-        subTitleFont: ["Montserrat", "sans-serif"],
-        textFont: ["Raleway", "sans-serif"],
+        titleFont: ["Montserrat", "sans-serif"],
+        subTitleFont: ["Raleway", "sans-serif"],
+        textFont: ["Libre Franklin", "sans-serif"],
       },
     },
   },

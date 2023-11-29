@@ -125,9 +125,21 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="box-border p-8 space-y-5 space-x-2">
       <h1 className="font-titleFont font-bold text-2xl">{title}</h1>
-      <h4>Insert URL or type prompt:</h4>
+      <h3 className="font-subtitleFont font-bold text-1xl">
+        Analyze or Generate Images with a Click
+      </h3>
+      <p>Directions:</p>
+      <p>
+        To analyze an image: Paste the URL of an image and click 'Analyze'. Our
+        AI will provide insights into what the image contains.
+      </p>
+      <p>
+        To generate an image: Enter a detailed textural prompt and click
+        'Generate'. Our AI, powered by OpenAI's All-e-3, will create a unique
+        image based on your description.
+      </p>
       <input
         type="text"
         value={value}
@@ -143,7 +155,7 @@ function App() {
       />
       <br />
       <button
-        className="font-titleFont font-bold bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full"
+        className="font-titleFont font-bold bg-yellow-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full"
         onClick={() => {
           setImage(value);
           setImageUrl(value);
@@ -166,7 +178,7 @@ function App() {
       </button>
 
       <button
-        className="font-titleFont font-bold bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full"
+        className="font-titleFont font-bold bg-yellow-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full"
         onClick={() => {
           setIsLoading(true);
           setUserPrompt(value);
