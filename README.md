@@ -20,10 +20,6 @@ While the name might have a deeper meaning for me, Opia is ultimately your gatew
 
 Opia was developed as part of the GitHub Universe 2023 Cloud Skills Challenge. This challenge provided the perfect opportunity to combine my passion for AI and creativity, resulting in a unique application that showcases the power of Azure AI.
 
-## Get Started (Optional)
-
-Instructions on running the project locally can be included here if your project is open-source and intended for developers.
-
 ## Tech Stack:
 
 - **Azure AI Vision**
