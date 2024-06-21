@@ -1,9 +1,7 @@
 # Opia: Generate AI Art & Analyze Images
 
-Unleash your creativity and gain insights from your photos with Opia!
-
 Opia is a web application that harnesses the power of Azure AI to:
-- **Generate artistic images based on your prompts:** Let your imagination run wild and see Opia bring your ideas to life!
+- **Generate artistic images based on your prompts (DALL·E-3):** Let your imagination run wild and see Opia bring your ideas to life!
 - **Analyze your photos and provide detailed descriptions:** Upload any image and get insightful information from Opia's AI image recognition.
 
 Opia is built for users of all levels and is currently deployed on Azure. (link available upon request)
@@ -29,7 +27,7 @@ Instructions on running the project locally can be included here if your project
 ## Tech Stack:
 
 - **Azure AI Vision**
-- **Azure OpenAI**
+- **Azure OpenAI (DALL·E-3)**
 - **React**
 - **Vite** (with optional plugin recommendations for React)
 
